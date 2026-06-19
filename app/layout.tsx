@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Av. Alexandra Popescu | Consultanță Juridică",
+  title: "AdvantPro | Consultanță Profesională",
   description:
-    "Consultanță juridică profesională pentru afaceri, contracte, GDPR și rezolvarea disputelor.",
+    "Consultanță profesională pentru afaceri, contracte, GDPR și rezolvarea disputelor.",
 };
 
 export default function RootLayout({
