@@ -52,7 +52,7 @@ const translations = {
     services: {
       title: "Servicii Juridice",
       subtitle:
-        "Soluții complete adaptate nevoilor tale, fie că ești antreprenor sau freelancer.",
+        "Soluții complete adaptate nevoilor tale, fie că ești antreprenor, freelancer sau reprezinți o companie.",
       items: [
         {
           title: "Redactare Contracte",
@@ -183,8 +183,8 @@ const translations = {
     about: {
       title: "About Me",
       subtitle: "Your trusted legal partner",
-      name: "Atty. Alexandra Popescu",
-      role: "Legal Consultant & Attorney",
+      name: "Claudia Pencea",
+      role: "Legal Consultant",
       bio1:
         "With over a decade of experience in commercial law and business consulting, I have dedicated my career to protecting clients' interests through clear, efficient legal solutions tailored to each case's real context.",
       bio2:
