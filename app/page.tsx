@@ -37,10 +37,10 @@ const translations = {
       cta: "Programează Consultația",
     },
     hero: {
-      badge: "Consultanță Juridică Profesională",
-      title: "Protecție și Claritate Juridică pentru Afacerea sau Proiectul Tău",
+      badge: "Consultanță Strategică de Business",
+      title: "Siguranță și Claritate pentru Afacerea sau Proiectul Tău",
       subtitle:
-        "Ofer soluții juridice personalizate, de la redactarea contractelor la consultanță strategică pentru startup-uri și IMM-uri. Integritate, confidențialitate și rezultate concrete.",
+        "Ofer soluții specializate, de la structurarea acordurilor comerciale la consultanță strategică pentru startup-uri și IMM-uri. Integritate, confidențialitate și rezultate concrete.",
       cta: "Programează o Consultație",
       ctaSecondary: "Descoperă Serviciile",
       stats: [
@@ -50,41 +50,41 @@ const translations = {
       ],
     },
     services: {
-      title: "Servicii Juridice",
+      title: "Servicii pentru Afaceri",
       subtitle:
         "Soluții complete adaptate nevoilor tale, fie că ești antreprenor, freelancer sau reprezinți o companie.",
       items: [
         {
-          title: "Redactare Contracte",
+          title: "Structurare Acorduri & Parteneriate",
           description:
-            "Contracte comerciale, de prestări servicii, parteneriate și acorduri de confidențialitate — redactate cu precizie juridică și claritate.",
+            "Acorduri comerciale, de prestări servicii, parteneriate și acorduri de confidențialitate — redactate cu precizie profesională și claritate.",
         },
         {
           title: "Consultanță Business & Startups",
           description:
-            "Ghidare juridică pentru înființarea firmei, structurarea acționariatului, termeni & condiții și conformitate operațională.",
+            "Ghidare strategică pentru înființarea firmei, structurarea acționariatului, termeni & condiții și conformitate operațională.",
         },
         {
-          title: "GDPR & Proprietate Intelectuală",
+          title: "GDPR & Management de Brand",
           description:
-            "Politici de confidențialitate, proceduri GDPR, protecția mărcilor, drepturi de autor și licențiere software.",
+            "Politici de confidențialitate, proceduri GDPR, managementul și poziționarea mărcilor, protecția activelor creative și licențiere software.",
         },
         {
-          title: "Rezolvarea Disputelor",
+          title: "Soluționarea Disputelor Comerciale",
           description:
-            "Mediere, negociere și reprezentare în litigii comerciale, recuperare creanțe și soluționarea conflictelor contractuale.",
+            "Mediere, negociere și suport în dispute comerciale, optimizarea recuperării creanțelor și soluționarea conflictelor operaționale.",
         },
       ],
     },
     about: {
       title: "Despre Mine",
-      subtitle: "Partenerul tău de încredere în materie juridică",
+      subtitle: "Partenerul tău de încredere în business",
       name: "Claudia Pencea",
-      role: "Consultant Juridic",
+      role: "Consultant de Business",
       bio1:
-        "Cu peste 10 ani de experiență în drept și consultanță pentru afaceri, am dedicat cariera mea protejării intereselor clienților prin soluții juridice clare, eficiente și adaptate contextului real al fiecărui caz.",
+        "Cu peste 10 ani de experiență în management și consultanță pentru afaceri, am dedicat cariera mea protejării intereselor clienților prin soluții strategice clare, eficiente și adaptate contextului real al fiecărui caz.",
       bio2:
-        "Cred cu tărie în abordarea personalizată: fiecare client primește atenție deplină, explicații accesibile și strategii juridice aliniate obiectivelor sale de business.",
+        "Cred cu tărie în abordarea personalizată: fiecare client primește atenție deplină, explicații accesibile și strategii eficiente aliniate obiectivelor sale de business.",
       values: [
         {
           title: "Integritate",
@@ -111,9 +111,9 @@ const translations = {
         emailPlaceholder: "exemplu@email.com",
         phone: "Telefon",
         phonePlaceholder: "+40 7XX XXX XXX",
-        message: "Scurtă descriere a cazului",
+        message: "Scurtă descriere a situației",
         messagePlaceholder:
-          "Descrie pe scurt situația juridică sau întrebarea ta...",
+          "Descrie pe scurt situația profesională sau întrebarea ta...",
         submit: "Trimite Cerere",
         success: "Cererea a fost trimisă! Te voi contacta în curând.",
       },
@@ -126,9 +126,9 @@ const translations = {
       },
     },
     footer: {
-      rights: "© 2026 Av. Claudia Pencea. Toate drepturile rezervate.",
+      rights: "© 2026 Claudia Pencea. Toate drepturile rezervate.",
       disclaimer:
-        "Disclaimer Legal: Informațiile prezentate pe acest site au caracter informativ general și nu constituie consultanță juridică personalizată. Contactarea consultantului nu creează o relație avocat-client până la semnarea unui contract de mandat. Pentru situații specifice, solicitați o consultație individuală.",
+        "Notă Informativă: Informațiile prezentate pe acest site au caracter informativ general și nu constituie consultanță personalizată. Contactarea consultantului nu creează o relație profesională formală până la semnarea unui acord de colaborare. Pentru situații specifice, solicitați o consultație individuală.",
       social: "Urmărește-mă",
     },
   },
@@ -141,10 +141,10 @@ const translations = {
       cta: "Book a Consultation",
     },
     hero: {
-      badge: "Professional Legal Consulting",
-      title: "Legal Protection and Clarity for Your Business or Project",
+      badge: "Strategic Business Consulting",
+      title: "Safety and Clarity for Your Business or Project",
       subtitle:
-        "I provide tailored legal solutions — from contract drafting to strategic consulting for startups and SMEs. Integrity, confidentiality, and tangible results.",
+        "I provide tailored solutions — from structuring commercial agreements to strategic consulting for startups and SMEs. Integrity, confidentiality, and tangible results.",
       cta: "Schedule a Consultation",
       ctaSecondary: "Explore Services",
       stats: [
@@ -154,41 +154,41 @@ const translations = {
       ],
     },
     services: {
-      title: "Legal Services",
+      title: "Business Services",
       subtitle:
         "Comprehensive solutions tailored to your needs, whether you are an entrepreneur, freelancer, or represent a company.",
       items: [
         {
-          title: "Contract Drafting",
+          title: "Structuring Agreements & Partnerships",
           description:
-            "Commercial contracts, service agreements, partnerships, and NDAs — drafted with legal precision and clarity.",
+            "Commercial agreements, service agreements, partnerships, and NDAs — drafted with professional precision and clarity.",
         },
         {
           title: "Business & Startup Consulting",
           description:
-            "Legal guidance for company formation, shareholder structuring, terms & conditions, and operational compliance.",
+            "Strategic guidance for company formation, shareholder structuring, terms & conditions, and operational compliance.",
         },
         {
-          title: "GDPR & Intellectual Property",
+          title: "GDPR & Brand Management",
           description:
-            "Privacy policies, GDPR procedures, trademark protection, copyright, and software licensing.",
+            "Privacy policies, GDPR procedures, trademark protection, creative asset security, and software licensing.",
         },
         {
-          title: "Dispute Resolution",
+          title: "Commercial Dispute Resolution",
           description:
-            "Mediation, negotiation, and representation in commercial litigation, debt recovery, and contractual conflicts.",
+            "Mediation, negotiation, and support in commercial disputes, debt recovery optimization, and operational conflict resolution.",
         },
       ],
     },
     about: {
       title: "About Me",
-      subtitle: "Your trusted legal partner",
+      subtitle: "Your trusted business partner",
       name: "Claudia Pencea",
-      role: "Legal Consultant",
+      role: "Business Consultant",
       bio1:
-        "With over a decade of experience in commercial law and business consulting, I have dedicated my career to protecting clients' interests through clear, efficient legal solutions tailored to each case's real context.",
+        "With over a decade of experience in management and business consulting, I have dedicated my career to protecting clients' interests through clear, efficient strategic solutions tailored to each case's real context.",
       bio2:
-        "I firmly believe in a personalized approach: every client receives full attention, accessible explanations, and legal strategies aligned with their business objectives.",
+        "I firmly believe in a personalized approach: every client receives full attention, accessible explanations, and effective strategies aligned with their business objectives.",
       values: [
         {
           title: "Integrity",
@@ -215,9 +215,9 @@ const translations = {
         emailPlaceholder: "example@email.com",
         phone: "Phone",
         phonePlaceholder: "+40 7XX XXX XXX",
-        message: "Brief case description",
+        message: "Brief situation description",
         messagePlaceholder:
-          "Briefly describe your legal situation or question...",
+          "Briefly describe your professional situation or question...",
         submit: "Submit Request",
         success: "Request sent! I will contact you shortly.",
       },
@@ -232,7 +232,7 @@ const translations = {
     footer: {
       rights: "© 2026 Claudia Pencea. All rights reserved.",
       disclaimer:
-        "Legal Disclaimer: The information presented on this website is for general informational purposes only and does not constitute personalized legal advice. Contacting the consultant does not create an attorney-client relationship until a mandate agreement is signed. For specific situations, please request an individual consultation.",
+        "Disclaimer: The information presented on this website is for general informational purposes only and does not constitute personalized advice. Contacting the consultant does not create a formal professional relationship until a collaboration agreement is signed. For specific situations, please request an individual consultation.",
       social: "Follow me",
     },
   },
