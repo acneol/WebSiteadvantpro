@@ -44,7 +44,7 @@ const translations = {
       cta: "Programează o Consultație",
       ctaSecondary: "Descoperă Serviciile",
       stats: [
-        { value: "10+", label: "Ani experiență" },
+        { value: "20+", label: "Ani experiență" },
         { value: "200+", label: "Clienți mulțumiți" },
         { value: "98%", label: "Rată de succes" },
       ],
@@ -148,7 +148,7 @@ const translations = {
       cta: "Schedule a Consultation",
       ctaSecondary: "Explore Services",
       stats: [
-        { value: "10+", label: "Years of experience" },
+        { value: "20+", label: "Years of experience" },
         { value: "200+", label: "Satisfied clients" },
         { value: "98%", label: "Success rate" },
       ],
