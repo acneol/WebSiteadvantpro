@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AdvantPro | Consultanță Profesională",
+  title: "AdvantPro | Consultanță",
   description:
-    "Consultanță profesională pentru afaceri, contracte, GDPR și rezolvarea disputelor.",
+    "Consultanță pentru afaceri, contracte, GDPR și rezolvarea disputelor.",
 };
 
 export default function RootLayout({
