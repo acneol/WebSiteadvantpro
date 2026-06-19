@@ -82,7 +82,7 @@ const translations = {
       name: "Claudia Pencea",
       role: "Consultant de Business",
       bio1:
-        "Cu peste 10 ani de experiență în management și consultanță pentru afaceri, am dedicat cariera mea protejării intereselor clienților prin soluții strategice clare, eficiente și adaptate contextului real al fiecărui caz.",
+        "Cu peste 20 ani de experiență în management și consultanță pentru afaceri, am dedicat cariera mea protejării intereselor clienților prin soluții strategice clare, eficiente și adaptate contextului real al fiecărui caz.",
       bio2:
         "Cred cu tărie în abordarea personalizată: fiecare client primește atenție deplină, explicații accesibile și strategii eficiente aliniate obiectivelor sale de business.",
       values: [
@@ -120,8 +120,8 @@ const translations = {
       info: {
         title: "Date de Contact",
         address: "Str. Aviatorilor nr. 15, Et. 3, București, Sector 1",
-        phone: "+40 721 234 567",
-        email: "contact@alexandrapopescu.ro",
+        phone: "+40 728 118 356",
+        email: "claudiapencea@yahoo.com",
         hours: "Luni – Vineri: 09:00 – 18:00",
       },
     },
@@ -186,7 +186,7 @@ const translations = {
       name: "Claudia Pencea",
       role: "Business Consultant",
       bio1:
-        "With over a decade of experience in management and business consulting, I have dedicated my career to protecting clients' interests through clear, efficient strategic solutions tailored to each case's real context.",
+        "With over 20 years of experience in management and business consulting, I have dedicated my career to protecting clients' interests through clear, efficient strategic solutions tailored to each case's real context.",
       bio2:
         "I firmly believe in a personalized approach: every client receives full attention, accessible explanations, and effective strategies aligned with their business objectives.",
       values: [
@@ -224,8 +224,8 @@ const translations = {
       info: {
         title: "Contact Details",
         address: "15 Aviatorilor St., Floor 3, Bucharest, Sector 1",
-        phone: "+40 721 234 567",
-        email: "contact@alexandrapopescu.ro",
+        phone: "+40 728 118 356",
+        email: "claudiapencea@yahoo.com",
         hours: "Monday – Friday: 09:00 – 18:00",
       },
     },
@@ -311,7 +311,7 @@ export default function HomePage() {
                 Claudia Pencea
               </p>
               <p className="text-xs text-navy-500 dark:text-slate-400">
-                {lang === "ro" ? "Consultanță Juridică" : "Legal Consulting"}
+                {lang === "ro" ? "Consultanță" : "Consulting"}
               </p>
             </div>
           </button>
@@ -687,12 +687,14 @@ export default function HomePage() {
                   {t.contact.info.title}
                 </h3>
                 <ul className="mt-6 space-y-5">
+                  {/* Address
                   <li className="flex gap-3">
                     <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-gold-500" />
                     <span className="text-sm leading-relaxed text-navy-600 dark:text-slate-400">
                       {t.contact.info.address}
                     </span>
                   </li>
+                  */}
                   <li className="flex gap-3">
                     <Phone className="mt-0.5 h-5 w-5 shrink-0 text-gold-500" />
                     <a
@@ -710,13 +712,15 @@ export default function HomePage() {
                     >
                       {t.contact.info.email}
                     </a>
-                  </li>
+                  </li> 
+                  {/* Working Hours 
                   <li className="flex gap-3">
                     <Clock className="mt-0.5 h-5 w-5 shrink-0 text-gold-500" />
                     <span className="text-sm text-navy-600 dark:text-slate-400">
                       {t.contact.info.hours}
                     </span>
                   </li>
+                  */}
                 </ul>
               </div>
 
@@ -724,8 +728,8 @@ export default function HomePage() {
                 <Scale className="h-8 w-8 text-gold-400" />
                 <p className="mt-4 text-sm leading-relaxed text-slate-300">
                   {lang === "ro"
-                    ? "Prima consultație include o evaluare inițiară a situației juridice și recomandări preliminare."
-                    : "The first consultation includes an initial assessment of your legal situation and preliminary recommendations."}
+                    ? "Prima consultație include o evaluare inițiară a situației și recomandări preliminare."
+                    : "The first consultation includes an initial assessment of your situation and preliminary recommendations."}
                 </p>
               </div>
             </div>
@@ -744,7 +748,7 @@ export default function HomePage() {
               <div>
                 <p className="font-bold text-white">Claudia Pencea</p>
                 <p className="text-xs text-slate-400">
-                  {lang === "ro" ? "Consultanță Juridică" : "Legal Consulting"}
+                  {lang === "ro" ? "Consultanță" : "Consulting"}
                 </p>
               </div>
             </div>
