@@ -22,6 +22,8 @@ import {
   ArrowRight,
   Clock,
   CheckCircle2,
+  GraduationCap,
+  Landmark
 } from "lucide-react";
 
 /* ─────────────────────────────────────────────
@@ -65,9 +67,9 @@ const translations = {
             "Ghidare strategică pentru înființarea firmei, structurarea acționariatului, termeni & condiții și conformitate operațională.",
         },
         {
-          title: "GDPR & Management de Brand",
+          title: "Mentorat pentru admiterea în profesiile juridice",
           description:
-            "Politici de confidențialitate, proceduri GDPR, managementul și poziționarea mărcilor, protecția activelor creative și licențiere software.",
+            "Pregatire teoretică pentru admiterea în profesia de avocat, magistrat, grefier. Grile și spețe specifice.",
         },
         {
           title: "Soluționarea Disputelor Comerciale",
@@ -169,9 +171,9 @@ const translations = {
             "Strategic guidance for company formation, shareholder structuring, terms & conditions, and operational compliance.",
         },
         {
-          title: "GDPR & Brand Management",
+          title: "Mentoring for admission to the legal professions",
           description:
-            "Privacy policies, GDPR procedures, trademark protection, creative asset security, and software licensing.",
+            "Theoretical preparation for admission to the profession of lawyer, magistrate, clerk. Specific scales and cases.",
         },
         {
           title: "Commercial Dispute Resolution",
@@ -241,8 +243,8 @@ const translations = {
 type Lang = "ro" | "en";
 type Theme = "light" | "dark";
 
-const serviceIcons = [FileText, Briefcase, Shield, Gavel];
-const valueIcons = [Scale, Lock, User];
+const serviceIcons = [FileText, Briefcase, GraduationCap, Gavel];
+const valueIcons = [Shield, Lock, User];
 
 const navLinks = [
   { id: "hero", key: "home" as const },
@@ -304,7 +306,7 @@ export default function HomePage() {
             className="group flex items-center gap-2.5 text-left"
           >
             <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-navy-800 text-gold-400 transition-colors group-hover:bg-navy-700 dark:bg-gold-500 dark:text-navy-950">
-              <Scale className="h-5 w-5" />
+              <Landmark className="h-5 w-5" />
             </div>
             <div>
               <p className="text-sm font-bold leading-tight text-navy-900 dark:text-white">
@@ -542,7 +544,7 @@ export default function HomePage() {
                   <p className="text-2xl font-bold text-white">{t.about.name}</p>
                   <p className="mt-2 text-sm text-gold-400">{t.about.role}</p>
                   <div className="mt-8 flex gap-3">
-                    {[Scale, Shield, FileText].map((Icon, idx) => (
+                    {[Landmark, GraduationCap, FileText].map((Icon, idx) => (
                       <div
                         key={idx}
                         className="flex h-10 w-10 items-center justify-center rounded-lg bg-white/10"
@@ -725,7 +727,7 @@ export default function HomePage() {
               </div>
 
               <div className="rounded-2xl bg-navy-800 p-8 text-white dark:bg-navy-800">
-                <Scale className="h-8 w-8 text-gold-400" />
+                <Landmark className="h-8 w-8 text-gold-400" />
                 <p className="mt-4 text-sm leading-relaxed text-slate-300">
                   {lang === "ro"
                     ? "Prima consultație include o evaluare inițiară a situației și recomandări preliminare."
@@ -743,7 +745,7 @@ export default function HomePage() {
           <div className="flex flex-col items-center justify-between gap-8 sm:flex-row">
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gold-500/20">
-                <Scale className="h-5 w-5 text-gold-400" />
+                <Landmark className="h-5 w-5 text-gold-400" />
               </div>
               <div>
                 <p className="font-bold text-white">Claudia Pencea</p>
